@@ -10,7 +10,7 @@ export default function Allbooks({ setcart }) {
   useEffect(() => {
     async function Getdata() {
       try {
-        const res = await api.get("/api/books/"); // ✅ Use leading slash
+        const res = await api.get("/api/books/"); 
         setBook(res.data);
       } catch (error) {
         console.error("Error fetching books:", error);
@@ -29,7 +29,6 @@ export default function Allbooks({ setcart }) {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-green-100 to-teal-100 py-8 px-4 sm:px-6 md:px-10 flex flex-col items-center">
-      {/* Header */}
       <div className="bg-white w-full max-w-6xl rounded-3xl shadow-md p-6 sm:p-8 text-center mb-8">
         <h1 className="text-2xl sm:text-3xl font-extrabold text-green-600 mb-3">
           📚 Explore Our Book Collection
@@ -41,7 +40,6 @@ export default function Allbooks({ setcart }) {
         </p>
       </div>
 
-      {/* Book Grid */}
       <div className="w-full max-w-6xl">
         {loading ? (
           <div className="text-center text-lg text-gray-700 font-semibold">

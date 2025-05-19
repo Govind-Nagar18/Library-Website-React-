@@ -44,7 +44,6 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-green-100 to-teal-100 py-8 px-4 sm:px-6 md:px-10 flex flex-col items-center">
       
-      {/* Welcome Section */}
       <div className="w-full max-w-6xl bg-white rounded-3xl p-6 sm:p-10 text-center shadow-lg mb-10">
         <h1 className="text-2xl sm:text-4xl font-extrabold text-green-600 mb-4 flex justify-center items-center gap-2 flex-wrap">
           📚 Welcome to <span className="text-teal-600">Library.Io</span>
@@ -60,7 +59,6 @@ export default function Home() {
         </button>
       </div>
 
-      {/* Featured Categories */}
       <div className="w-full max-w-6xl mb-12">
         <h2 className="text-xl sm:text-2xl font-bold text-green-700 mb-6 text-center sm:text-left">
           🌟 Featured Categories
@@ -90,7 +88,6 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Help Section */}
       <div className="w-full max-w-6xl bg-white rounded-3xl p-6 sm:p-10 text-center shadow-md">
         <h2 className="text-xl sm:text-2xl font-bold text-green-700 mb-4">
           ❓ Need Help?

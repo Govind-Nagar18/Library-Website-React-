@@ -171,7 +171,6 @@ export default function Visit() {
         </div>
       )}
 
-      {/* Modal */}
       {selectedBook && (
         <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex justify-center items-center p-4">
           <div className="bg-white rounded-lg w-full max-w-4xl overflow-y-auto max-h-[90vh]">
@@ -211,7 +210,6 @@ export default function Visit() {
         </div>
       )}
 
-      {/* Newsletter */}
       <div className="mt-16 bg-green-600 text-white p-6 rounded-xl shadow-lg text-center">
         <h2 className="text-xl font-bold mb-2">Stay Updated</h2>
         <p className="mb-4">Subscribe to get updates on new books and special offers.</p>

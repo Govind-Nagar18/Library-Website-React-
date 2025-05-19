@@ -1,4 +1,3 @@
-// Axiosinstance.jsx
 import axios from "axios";
 
 const isLocal = import.meta.env.MODE === "development";

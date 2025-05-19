@@ -44,7 +44,6 @@ export default function Searchitem() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-green-100 to-teal-100 py-6 px-4 sm:px-8 md:px-12 lg:px-20 flex flex-col items-center">
       
-      {/* Search Box */}
       <div className="w-full max-w-2xl mb-6">
         <div className="flex items-center bg-white px-4 py-2 rounded-full shadow-md focus-within:ring-2 focus-within:ring-green-400 transition">
           <Search className="text-gray-500 mr-2" size={20} />
@@ -58,14 +57,12 @@ export default function Searchitem() {
         </div>
       </div>
 
-      {/* Title */}
       <div className="bg-white w-full max-w-6xl rounded-3xl shadow-md p-6 sm:p-8 text-center mb-8">
         <h1 className="text-2xl sm:text-3xl font-extrabold text-green-600 mb-3">
           🔍 Search Results
         </h1>
       </div>
 
-      {/* Content Area */}
       <div className="w-full max-w-6xl">
         {loading ? (
           <div className="flex flex-col items-center justify-center text-center text-lg text-gray-700 font-semibold">
