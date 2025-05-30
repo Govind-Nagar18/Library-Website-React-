@@ -19,7 +19,6 @@ import Contact from "./Pages/Contact";
 export default function App() {
 
   let [cart, setcart] = useState([]);
-  let [search, setsearch] = useState("");
 
   return (
     <div>
